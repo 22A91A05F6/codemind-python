@@ -1,11 +1,9 @@
 n=int(input())
-i=1
-sum=0
+s=0
 for i in range(1,n):
     if n%i==0:
-        sum=sum+i
-        i=i+1
-if sum==n:
+        s=s+i
+if s==n:
     print("True")
 else:
-    print("False")
+   print("False")
