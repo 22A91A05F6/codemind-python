@@ -9,4 +9,4 @@ while n>0:
     n=n//10
     sq=sq//10
 if flag==0:
-    print("Automorphic Number")
+    print("Automorphic Number");
