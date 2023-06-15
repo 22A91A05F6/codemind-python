@@ -1,11 +1,14 @@
-import math
-for _ in range(int(input())):
-    n,x,y,k=[int(x) for x in input().split()]
-    cx=int(n/x)
-    cy=int(n/y)
-    clcm=int(n/((x*y)//math.gcd(x,y)))
-    #print(cx,cy,clcm)
-    if cx+cy-(2*clcm)>=k:
+b=int(input())
+for i in range(b):
+    n,a,b,k=map(int,input().split())
+    c1=0
+    c2=0
+    c=0
+    c1=n//a
+    c2=n//b
+    c=n//(a*b)
+    if(c1+c2-c>=k):
         print("Win")
     else:
         print("Lose")
+    
