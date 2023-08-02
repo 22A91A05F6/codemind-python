@@ -5,7 +5,7 @@ def calculateLength(n):
         n = n//10;    
     return length;    
      
-num = int(input());    
+num = int(input())    
 rem = sum = 0;    
 len = calculateLength(num);    
      
@@ -17,7 +17,7 @@ while(num > 0):
     rem = num%10;  
     sum = sum + int(rem**len);    
     num = num//10;    
-    len = len - 1;    
+    len = len - 1 ;
      
 #Checks whether the sum is equal to the number itself    
 if(sum == n):    
